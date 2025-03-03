@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Implementation/.vs
+/Implementation/src/Resources/Artistic.hmodel
+/Implementation/src/Resources/Artistic.model
+/Implementation/src/Resources/Stable.hmodel
+/Implementation/src/Resources/Stable.model
