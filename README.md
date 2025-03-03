@@ -137,6 +137,7 @@ ___All tests was done in Windows 7 x64 laptop with Intel(R) Core(TM) i5-6300HQ C
 
 # Updates
 
+* [03/03/2024] - Changed compilers from windows to vs2022 in compile.bat files, added pull request 'Reworked UI' from colorsoft GitHub, added checkbox to add or not '-deoldify' to end of file name, Add tooltips to buttons. *
 * [10.09.2022] - **Version 2.1** has been released. The ability to drag and drop images into the application has been added, error handling has been improved, and the process of saving the result has been simplified.
 * [20.07.2022] - The Windows and Linux versions are combined.
 * **[11.07.2022] - DeOldify.NET now supports Stable model from original DeOldify. Added the ability to build DeOldify.NET with uncompressed original weights to obtain the maximum quality of coloring.**
