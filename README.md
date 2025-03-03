@@ -1,5 +1,6 @@
 # DeOldify.NET
 *C# implementation of Jason Antic's DeOldify(https://github.com/jantic/DeOldify)* **Only for photos for now!**
+*With Reworked UI(https://github.com/ColorfulSoft/DeOldify.NET/pull/31)  by Regs01(https://github.com/regs01) *
 
 Paper "__DeOldify.NET: cross-platform application for coloring black and white photos__" was accepted to poster session of _Neuroinformatics - 2022_ conference. The paper describes technical details of managed C# implementation of the original DeOldify and contains some comparisons with different other image colorization products.
 
@@ -68,7 +69,7 @@ sudo apt-get install mono-complete
 <summary>Using git and terminal</summary>
 
 ```
-git clone https://github.com/ColorfulSoft/DeOldify.NET.git
+git clone https://github.com/mulgaBrian/DeOldify.NET.git
 cd DeOldify.NET
 wget <model url> -O Implementation/src/Resources/<model name>
 ```
@@ -101,19 +102,19 @@ wget <model url> -O Implementation/src/Resources/<model name>
 
 * **Use!**
 
-![Linux GUI](https://github.com/ColorfulSoft/DeOldify.NET/blob/main/Examples/Sample.Linux.jpg)
+![Linux GUI](https://github.com/mulgaBrian/DeOldify.NET/blob/main/Examples/Sample.Linux.jpg)
 
 **_Please note, that DeOldify.NET using Mono is a bit slower, than using .NET Framework_**
 
 # Examples
 
-![Example1](https://github.com/ColorfulSoft/DeOldify.NET/blob/main/Examples/Example1.jpg)
+![Example1](https://github.com/mulgaBrian/DeOldify.NET/blob/main/Examples/Example1.jpg)
 
-![Example2](https://github.com/ColorfulSoft/DeOldify.NET/blob/main/Examples/Example2.jpg)
+![Example2](https://github.com/mulgaBrian/DeOldify.NET/blob/main/Examples/Example2.jpg)
 
 |Original|Artistic|Stable|
 |:------:|:------:|:----:|
-|![Original](https://github.com/ColorfulSoft/DeOldify.NET/blob/main/Examples/Original.jpg)|![Artistic](https://github.com/ColorfulSoft/DeOldify.NET/blob/main/Examples/Artistic.jpg)|![Stable](https://github.com/ColorfulSoft/DeOldify.NET/blob/main/Examples/Stable.jpg)|
+|![Original](https://github.com/mulgaBrian/DeOldify.NET/blob/main/Examples/Original.jpg)|![Artistic](https://github.com/mulgaBrian/DeOldify.NET/blob/main/Examples/Artistic.jpg)|![Stable](https://github.com/mulgaBrian/DeOldify.NET/blob/main/Examples/Stable.jpg)|
 
 # New algorithms
 
