@@ -16,7 +16,7 @@ Paper "__DeOldify.NET: cross-platform application for coloring black and white p
 
 * Select a version of DeOldify.NET the one you want to build. Versions with and without simd are available, with float32 typed weights (higher accuracy) and float16 typed weights (lower accuracy and smaller file size), with a stable model and an artistic model, as in the original DeOldify. Further actions depend on your choice.
 
-* Download and unpack the repository, then download model from the releases (https://github.com/ColorfulSoft/DeOldify.NET/releases/download/Weights) and place it in Implementation\src\Resources.
+* Download and unpack the repository, then download model from the releases (https://github.com/ColorfulSoft/DeOldify.NET/releases) and place it in Implementation\src\Resources.
 
 |Model|Details|File|
 |:---:|:-----:|:--:|

@@ -8,33 +8,30 @@ using System.Windows.Forms;
 namespace ColorfulSoft.DeOldify
 {
 
+  /// <summary>
+  /// Main class.
+  /// </summary>
+  public static class Program
+  {
+
     /// <summary>
-    /// Main class.
+    /// Entry point.
     /// </summary>
-    public static class Program
+    [STAThread]
+    public static void Main(string[] args)
     {
-
-        /// <summary>
-        /// Entry point.
-        /// </summary>
-        [STAThread]
-        public static void Main(string[] args)
-        {
-            DeOldify.Initialize();
-            if(args.Length > 0)
-            {
-                return;
-            }
-            Application.EnableVisualStyles();
-            try
-            {
-                Application.Run(new MainForm());
-            }
-            catch
-            {
-            }
-        }
-
+      // Reduce application CPU priority to avoid freezes during image processing
+      System.Diagnostics.Process.GetCurrentProcess().PriorityClass =
+          System.Diagnostics.ProcessPriorityClass.BelowNormal;
+      DeOldify.Initialize();
+      if (args.Length > 0)
+      {
+        return;
+      }
+      Application.EnableVisualStyles();
+      Application.Run(new MainForm());
     }
+
+  }
 
 }

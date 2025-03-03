@@ -1,3 +1,3 @@
 MD Release
-C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe @Windows.artistic.simd.float.rsp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\csc.exe" @Windows.artistic.simd.float.rsp
 cmd.exe
