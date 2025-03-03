@@ -9,3 +9,9 @@
 /Implementation/src/Resources/Stable.model
 /.vs
 /obj
+/Implementation/Release/DeOldify.NET.stable.windows.simd.w32.exe
+/Implementation/Release/DeOldify.NET.artistic.windows.exe
+/Implementation/Release/DeOldify.NET.artistic.windows.simd.exe
+/Implementation/Release/DeOldify.NET.artistic.windows.simd.w32.exe
+/Implementation/Release/DeOldify.NET.stable.windows.exe
+/Implementation/Release/DeOldify.NET.stable.windows.simd.exe
