@@ -42,7 +42,7 @@ Paper "__DeOldify.NET: cross-platform application for coloring black and white p
 
 * **Use!**
 
-![Windows GUI](https://github.com/ColorfulSoft/DeOldify.NET/blob/main/Examples/Sample.jpg)
+![Windows GUI](https://github.com/mulgaBrian/DeOldify.NET/blob/main/Examples/Sample.Windows.jpg.jpg)
 
 ## On Linux (Tested on Mint)
 * We recommend that the first step is to update everything. It may take time, but it's worth it:
